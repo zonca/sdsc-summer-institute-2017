@@ -9,7 +9,8 @@
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=24
 #SBATCH --export=ALL
-#SBATCH -t 04:00:00
+#SBATCH --time=04:00:00
+#SBATCH --reservation=SI2017DAY3
 
 export PATH=/oasis/scratch/comet/zonca/temp_project/anaconda/envs/py35zonca/bin:$PATH
 export PYTHONPATH=;
